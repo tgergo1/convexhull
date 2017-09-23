@@ -1,0 +1,6 @@
+/home/tgergo1/development/convex_hull/poinset_type.cpp:4:1: error: invalid use of template-name ‘pointset_type’ without an argument list
+ pointset_type::pointset_type(){
+ ^
+/home/tgergo1/development/convex_hull/poinset_type.cpp:9:1: error: invalid use of template-name ‘pointset_type’ without an argument list
+ pointset_type::pointset_type(pointset_type& in){
+ ^

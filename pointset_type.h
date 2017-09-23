@@ -1,3 +1,6 @@
+#ifndef POINTSET_TYPE
+#define POINTSET_TYPE
+
 #include <vector>
 #include "vector_type.h"
 
@@ -10,3 +13,5 @@ public:
   void add_point(vector_type);
   pointset_type generate_convex_hull();
 };
+
+#endif

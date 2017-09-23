@@ -8,6 +8,10 @@ pointset_type::pointset_type(pointset_type& in){
   this->points=in.points;
 }
 
+pointset_type::~pointset_type(){
+  
+}
+
 void pointset_type::add_point(vector_type in){
   points.push_back(in);
 }
